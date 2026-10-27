@@ -25,7 +25,7 @@ Legenda: ✅ feito e verificado como descrito · 🟡 feito, mas **não verifica
 
 ## Limitações conhecidas
 - **Não testei no Expo Go/Snack nem em celular.** A verificação visual foi em navegador (react-native-web).
-- **Versão do SDK:** o projeto usa o Expo SDK 58. Não consegui confirmar quais SDKs o Snack oferece hoje.
+- **Versão do SDK:** o projeto foi alinhado ao Expo SDK 54 para compatibilidade com o seletor atual do Snack; resta a validação visual no Snack autenticado.
 - **Supabase real:** nunca executado por mim; credenciais não foram fornecidas.
 - **Upload no Supabase:** a leitura do arquivo escolhido usa `fetch(uri).arrayBuffer()`, comum no React Native, mas não foi exercitada num aparelho.
 - **Progresso de upload** é por etapas: o `supabase-js` não expõe progresso de bytes.

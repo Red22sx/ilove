@@ -15,10 +15,10 @@ Funciona em dois modos:
 
 1. **Gere a pasta pronta para o Snack.** Ela já vem no zip em `snack-ready/` (sem testes e sem arquivos de desenvolvimento).
 2. **Opção A — importar do GitHub (recomendada):**
-   1. No navegador, crie um repositório novo no GitHub e envie (upload) o **conteúdo** de `snack-ready/` (`App.tsx`, `app.json`, `package.json`, pasta `src/`).
-   2. Em <https://snack.expo.dev>, use a opção de importar repositório Git e cole a URL do repositório.
+   1. No navegador, abra o repositório público <https://github.com/Red22sx/ilove>.
+   2. Em <https://snack.expo.dev>, faça login e use a opção de importar repositório Git com `Red22sx/ilove/snack-ready`.
 3. **Opção B — arrastar arquivos:** em um Snack novo, crie os arquivos/pastas com os mesmos caminhos (ex.: `src/ui/Button.tsx`) e cole o conteúdo. Só é prático para poucos arquivos.
-4. **Escolha a versão do SDK.** O `package.json` usa o **Expo SDK 58** (`expo ~58.0.x`, React Native 0.88). No Snack, abra as configurações do projeto / seletor de SDK e escolha **a mesma versão**. Se o Snack ainda não oferecer o SDK 58, me diga qual SDK ele oferece: as versões do `package.json` precisam ser trocadas por ela (não consegui verificar isso daqui).
+4. **Escolha a versão do SDK.** O `package.json` usa o **Expo SDK 54**, compatível com o seletor atual do Snack.
 5. **No celular:** instale o app **Expo Go**, toque em "My Device"/escaneie o QR code do Snack. No navegador, a aba "Web" do Snack também funciona (visual aproximado; câmera, galeria e vibração se comportam diferente).
 6. Na tela inicial confirme "Declaro ter 18 anos" e use **Entrar como cliente / prestadora / admin (demo)**.
 
