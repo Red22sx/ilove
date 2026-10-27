@@ -1,6 +1,5 @@
 import { RepoError, type Booking, type Conversation, type MediaItem, type Message, type ProfileSummary, type Service, type Window } from "./types";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Row = Record<string, any>;
 
 /** Converte erros do Postgres/Supabase em mensagens claras. Mensagens "raise exception" do nosso SQL já vêm em português. */

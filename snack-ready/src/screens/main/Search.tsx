@@ -41,7 +41,7 @@ export function SearchScreen() {
 
   useEffect(() => {
     if (route.params?.category) setF((p) => ({ ...p, category: route.params!.category }));
-  }, [route.params?.category]);
+  }, [route.params]);
   useEffect(() => {
     const t = setTimeout(() => setApplied(text), 300); // evita buscar a cada tecla
     return () => clearTimeout(t);
